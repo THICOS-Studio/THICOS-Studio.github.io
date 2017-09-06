@@ -79,12 +79,17 @@ figure {
   position: relative;
   height: 800px;
 }
-.copyrights{
-	text-indent:-9999px;
-	height:0;
-	line-height:0;
-	font-size:0;
-	overflow:hidden;
+
+.fh5co-cover-my {
+    position: relative;
+    height: 300px;
+}
+.copyrights {
+    text-indent: -9999px;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
@@ -475,20 +480,17 @@ figure {
 }
 
 #fh5co-work-section,
-#fh5co-services-section,
 #fh5co-content-section,
 #fh5co-work-section_2,
 #fh5co-blog-section,
 #fh5co-features {
   padding: 7em 0;
 }
+#fh5co-services-section {
+    padding: 7em 0 0 0;
+}
 @media screen and (max-width: 768px) {
-  #fh5co-work-section,
-  #fh5co-services-section,
-  #fh5co-content-section,
-  #fh5co-work-section_2,
-  #fh5co-blog-section,
-  #fh5co-features {
+    #fh5co-work-section, #fh5co-services-section, #fh5co-content-section, #fh5co-work-section_2, #fh5co-blog-section, #fh5co-features {
     padding: 4em 0;
   }
 }
@@ -1066,7 +1068,7 @@ figure {
 }
 
 #footer {
-    background: #00bcd4;
+    background: #000000;
     padding: 60px 0 40px;
 }
 #footer p {
@@ -1391,5 +1393,4 @@ figure {
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
-
 /*# sourceMappingURL=style.css.map */
