@@ -25,10 +25,10 @@ body.fh5co-offcanvas {
 }
 
 a {
-  color: #66D37E;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+    color: #eafaa6;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 a:hover {
   text-decoration: none !important;
@@ -64,8 +64,8 @@ figure {
 }
 
 ::selection {
-  color: #fcfcfc;
-  background: #66D37E;
+    color: #fcfcfc;
+    background: #3197de;
 }
 
 #fh5co-header {
@@ -117,7 +117,7 @@ figure {
   right: 0;
   z-index: 1;
   background: rgba(66, 64, 64, 0.9);
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .fh5co-cover {
@@ -504,18 +504,18 @@ figure {
 .heading-section:after {
   position: absolute;
   content: '';
-  bottom: 0;
+  bottom: auto;
   left: 50%;
   width: 100px;
   margin-left: -50px;
   height: 2px;
   background: #66D37E;
 }
-.heading-section h3 {
-  font-size: 40px;
-  font-weight: 300;
-  position: relative;
-}
+    .heading-section h3 {
+        font-size: 2.9em;
+        font-weight: 600;
+        position: relative;
+    }
 .heading-section p {
   font-size: 20px;
 }
@@ -541,9 +541,9 @@ figure {
 }
 
 .services {
-  background: #66D37E;
-  padding: 40px 20px 20px 20px;
-  margin-bottom: 30px;
+    background: #00bcd4;
+    padding: 40px 20px 20px 20px;
+    margin-bottom: 30px;
 }
 .services span {
   margin-bottom: 30px;
@@ -1066,8 +1066,8 @@ figure {
 }
 
 #footer {
-  background: #66D37E;
-  padding: 60px 0 40px;
+    background: #00bcd4;
+    padding: 60px 0 40px;
 }
 #footer p {
   color: white;
@@ -1094,10 +1094,16 @@ figure {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #66D37E;
-  color: #fff;
-  border: none !important;
-  border: 2px solid transparent !important;
+        background: #00bcd4;
+        color: #fff;
+        border: none !important;
+        border: 2px solid transparent !important;
+    }
+.btn.mybtn2 {
+    background: #00bcd4;
+    color: #fff;
+    border: none !important;
+    border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
